@@ -1,6 +1,6 @@
 ---
 Author:SURYA
-layout:Template
+layout: Template
 ---
 
 ## This page is written by {{page.Author}}
