@@ -12,7 +12,7 @@ Author SURYA
 -  rendered output will be Itallic
 -  rendered output will be different font style
 
-SyntaxOutput-style
-------------------
-Example 1Title 1
-Example 2Title 2
+|SyntaxOutput|style|
+|-------|-----------|
+|Example 1|Title 1|
+|Example 2|Title 2|
