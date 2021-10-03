@@ -8,6 +8,5 @@
 
 |Syntax|Output-style|
 |------|------------|
-|nnnnnn|nnnnnnnnnnnn|
-|kkkkk|llllllll|
-[x] 
+|Example 1|Title 1|
+|Example 2|Title 2|
