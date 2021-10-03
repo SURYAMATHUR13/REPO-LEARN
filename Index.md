@@ -2,7 +2,7 @@
 Author: SURYA
 ---
 
-## This page is written by {{page.author}}
+## This page is written by {{page.Author}}
 
 # Markdown Basic Syntax
 ## Markdown Basic Syntax
