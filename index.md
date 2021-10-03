@@ -6,6 +6,7 @@ layout: Template
 ## This page is written by {{page.Author}}
 
 # Markdown Basic Syntax
+
 ## Markdown Basic Syntax
 - #syntax rendered output will be H1
 - ##syntax rendered output will be H2
