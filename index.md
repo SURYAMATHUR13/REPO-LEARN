@@ -1,9 +1,9 @@
 ---
-Author:surya
+author:SURYA
 layout: Template
 ---
 
-## This page is written by {{ page.Author }}
+## This page is written by {{page.author}}
 
 # JRDTATA- Indian pioneer industrialist who built **INDIA**
 
