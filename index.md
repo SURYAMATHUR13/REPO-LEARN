@@ -10,9 +10,7 @@ layout: Template
 ## Markdown Basic Syntax
 
 {% for anything in site.data.news %}
-
 -  {{anything.latest}}: {{anything.old}}
-
 {% endfor %}
 
 {% include text_includes_file.txt %}
