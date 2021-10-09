@@ -11,6 +11,12 @@ layout: Template
 
 {% include text_includes_file.txt %}
 
+{% for entry in site.data.news %}
+
+-  {{entry.latest}}: {{entry.old}}
+
+{% endfor %}
+
 - #syntax rendered output will be H1
 - ##syntax rendered output will be H2
 - ** ** rendered output will be **BOLD**
