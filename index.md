@@ -1,17 +1,16 @@
 ---
-Author:SURYA
+Author:surya
 layout: Template
 ---
 
 ## This page is written by {{page.Author}}
 
-# Markdown Basic Syntax
+# JRDTATA- Indian pioneer industrialist who built **INDIA**
 
-## Markdown Basic Syntax
+## Tata-Air India DEAL
 
 {% for anything in site.data.news %}
 -  {{anything.latest}}: {{anything.old}}
-![JRDTATA](https://images.indianexpress.com/2017/06/jrd_tata_1200.jpg)
 {% endfor %}
 
 {% include text_includes_file.txt %}
