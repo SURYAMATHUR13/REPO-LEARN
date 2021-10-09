@@ -8,6 +8,9 @@ layout: Template
 # Markdown Basic Syntax
 
 ## Markdown Basic Syntax
+
+{% text_includes_file %}
+
 - #syntax rendered output will be H1
 - ##syntax rendered output will be H2
 - ** ** rendered output will be **BOLD**
