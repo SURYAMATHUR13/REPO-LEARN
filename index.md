@@ -9,7 +9,7 @@ layout: Template
 
 ## Markdown Basic Syntax
 
-{% text_includes_file.txt %}
+{% include text_includes_file.txt %}
 
 - #syntax rendered output will be H1
 - ##syntax rendered output will be H2
