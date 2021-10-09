@@ -9,13 +9,13 @@ layout: Template
 
 ## Markdown Basic Syntax
 
-{% include text_includes_file.txt %}
+{% for anything in site.data.news %}
 
-{% for entry in site.data.news %}
-
--  {{entry.latest}}: {{entry.old}}
+-  {{anything.latest}}: {{anything.old}}: {{anything.Difference}}
 
 {% endfor %}
+
+{% include text_includes_file.txt %}
 
 - #syntax rendered output will be H1
 - ##syntax rendered output will be H2
