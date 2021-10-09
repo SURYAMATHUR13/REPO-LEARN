@@ -11,6 +11,7 @@ layout: Template
 
 {% for anything in site.data.news %}
 -  {{anything.latest}}: {{anything.old}}
+![JRDTATA](https://images.indianexpress.com/2017/06/jrd_tata_1200.jpg)
 {% endfor %}
 
 {% include text_includes_file.txt %}
