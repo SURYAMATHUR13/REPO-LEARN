@@ -11,7 +11,7 @@ layout: Template
 
 {% for anything in site.data.news %}
 
--  {{anything.latest}}: {{anything.old}}: {{anything.Difference}}
+-  {{anything.latest}}: {{anything.old}}
 
 {% endfor %}
 
