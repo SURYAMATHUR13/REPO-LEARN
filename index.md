@@ -12,6 +12,8 @@ layout: Template
 
 {% for anything in site.data.news %}
 -  {{anything.latest}}: {{anything.old}}
+![JRDTATA]![JRDTATA](https://images.indianexpress.com/2017/06/jrd_tata_1200.jpg)
+![RATANTATA]![RATANTATA](https://images.moneycontrol.com/static-mcnews/2021/10/6-TATA-Air-India-770x433.jpg?impolicy=website&width=770&height=431)
 {% endfor %}
 
 {% include text_includes_file.txt %}
