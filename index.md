@@ -14,7 +14,7 @@ layout: Template
 -  {{entry.year}}: {{entry.news}}
 {% endfor %}
 
-{% include tatasons %}
+{% include tatasons.txt %}
 
 - #syntax rendered output will be H1
 - ##syntax rendered output will be H2
