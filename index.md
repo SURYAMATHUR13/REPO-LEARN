@@ -10,11 +10,11 @@ layout: Template
 
 ## Tata-Air India DEAL
 
-{% include tatasons.txt %}
-
 {% for entry in site.data.news %}
 -  {{entry.year}}: {{entry.news}}
 {% endfor %}
+
+{% include tatasons.txt %}
 
 - #syntax rendered output will be H1
 - ##syntax rendered output will be H2
