@@ -4,6 +4,8 @@ title: TATA SONS
 layout: Template
 ---
 
+{% include tatasons.txt %}
+
 ## Page compiled by {{page.author}}
 
 # JRDTATA- Indian pioneer industrialist who built **INDIA**
@@ -13,8 +15,6 @@ layout: Template
 {% for entry in site.data.news %}
 -  {{entry.year}}: {{entry.news}}
 {% endfor %}
-
-{% include tatasons.txt %}
 
 - #syntax rendered output will be H1
 - ##syntax rendered output will be H2
