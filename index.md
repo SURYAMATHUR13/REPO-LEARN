@@ -10,8 +10,8 @@ layout: Template
 
 ## Tata-Air India DEAL
 
-{% for anything in site.data.news %}
--  {{anything.latest}}: {{anything.old}}
+{% for entry in site.data.news %}
+-  {{entry.year}}: {{entry.news}}
 {% endfor %}
 
 {% include text_includes_file.txt %}
