@@ -4,13 +4,13 @@ title: TATA SONS
 layout: Template
 ---
 
-{% include tatasons.txt %}
-
 ## Page compiled by {{page.author}}
 
 # JRDTATA- Indian pioneer industrialist who built **INDIA**
 
 ## Tata-Air India DEAL
+
+{% include tatasons.txt %}
 
 {% for entry in site.data.news %}
 -  {{entry.year}}: {{entry.news}}
