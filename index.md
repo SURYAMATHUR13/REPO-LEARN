@@ -10,19 +10,13 @@ layout: Template
 
 ## Tata-Air India DEAL
 
+|Syntax|Output-style|
+|------|------------|
+|Example 1|Title 1|
+|Example 2|Title 2|
+
 {% for entry in site.data.news %}
 -  {{entry.year}}: {{entry.news}}
 {% endfor %}
 
 {% include tatasons.txt %}
-
-- #syntax rendered output will be H1
-- ##syntax rendered output will be H2
-- ** ** rendered output will be **BOLD**
-- ** rendered output will be *Itallic*
-- **>** rendered output will be different font style
-
-|Syntax|Output-style|
-|------|------------|
-|Example 1|Title 1|
-|Example 2|Title 2|
